@@ -34,4 +34,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ✅ Banco de dados robusto, garantindo persistência e rastreamento de alterações.<br>
 ✅ Interface responsiva, adaptada para dispositivos desktop e mobile;<br>
 
-- [Acesse o projeto finalizado, online](https://apex.oracle.com/pls/apex/r/projetos_sj/controle-de-competi%C3%A7%C3%B5es-das-olimp%C3%ADadas/)
+<a href="https://apex.oracle.com/pls/apex/r/projetos_sj/controle-de-competi%C3%A7%C3%B5es-das-olimp%C3%ADadas/" target:="_blank">Acesse o projeto finalizado, online</a>
