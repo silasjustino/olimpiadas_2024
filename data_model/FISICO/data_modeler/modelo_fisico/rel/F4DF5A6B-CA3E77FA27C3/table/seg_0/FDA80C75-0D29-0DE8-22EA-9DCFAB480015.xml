@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDA80C75-0D29-0DE8-22EA-9DCFAB480015" name="ESPORTE">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:00:55 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F572CC9E-69FE-AAB8-C563-BA4C3A0B514F">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:01:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_ESPORTE" id="8C7AD083-36BD-1688-C90C-E2BF8D88D577">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:01:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0380FEB1-7DF3-5957-8B1E-6DC922CAD05D" name="ESPORTE_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:01:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F572CC9E-69FE-AAB8-C563-BA4C3A0B514F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D119A13-C7CF-8AFD-3A78-7C1E714E520F" name="ESPORTE_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:34:23 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7AD083-36BD-1688-C90C-E2BF8D88D577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AAACFBE-E439-B75D-6C80-A8E0B6007A8B" name="FASE">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:10:39 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="23DED1D1-49A1-A085-094C-EF6708A5A468">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:11:09 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_FASE" id="6A43A107-01F3-90E7-24FA-C36FB06591F3">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:11:09 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67CB8D32-CB8E-99C3-0272-6AA85370EA2C" name="FASE_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:11:09 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23DED1D1-49A1-A085-094C-EF6708A5A468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DEFFF95-FE2B-BB08-DEC2-7DFBA01E2FFA" name="FASE_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:23:00 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A43A107-01F3-90E7-24FA-C36FB06591F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

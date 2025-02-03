@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A54F4456-CE82-6F5F-1BB8-FC16A9C52941" name="AUDITORIA">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-15 21:52:09 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8F7B66DA-7EEE-21C0-6689-0FF6B45BDE14">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-15 21:52:27 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="9A259796-DE58-C376-56A6-387CF5513A0C">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-15 21:52:58 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_MODIFICACAO" id="0C05A926-7284-C007-55AB-5EE8D82FCB83">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-15 21:52:58 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC5D12F3-FBA6-E828-7A66-DE154CE2AF2E" name="AUDITORIA_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-15 21:52:27 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7B66DA-7EEE-21C0-6689-0FF6B45BDE14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

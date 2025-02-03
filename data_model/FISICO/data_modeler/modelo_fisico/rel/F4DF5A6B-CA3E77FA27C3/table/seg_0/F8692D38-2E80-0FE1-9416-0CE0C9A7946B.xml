@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8692D38-2E80-0FE1-9416-0CE0C9A7946B" name="SITUACAO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:01:52 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="52C772ED-7C3F-F07A-2F25-C5B381222CB5">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:02:18 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_SITUACAO" id="EC3BCD5A-09AC-EF3E-8D22-B28A90DB5B0D">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:02:18 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBA11FE6-349B-D938-3846-766521347B3B" name="SITUACAO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:02:53 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C772ED-7C3F-F07A-2F25-C5B381222CB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8113797A-DBA5-39A8-A2AC-6F4504578630" name="SITUACAO_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:34:46 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC3BCD5A-09AC-EF3E-8D22-B28A90DB5B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

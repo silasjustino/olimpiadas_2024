@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A289773-AB9C-CC74-E0E2-8EA56AF826AB" name="PONTUACAO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:53:20 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="758CA549-3C3E-B7E8-98EA-4B40DF8A0AE2">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:01:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RESULTADO" id="621FE215-7C5B-EA1B-8F59-F8674701571E">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:01:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="221237E0-3B33-3F76-A9AE-F755EB1AC61C" referredColumn="9246CABD-AD29-AC93-8AB4-FBCFFF382B3B"/>
+</associations>
+</Column>
+<Column name="ID_JURADO" id="1EA7016D-5653-D07A-7FBC-A876209D35DF">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:01:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="042999CA-4A8C-C92D-8863-975E56EB2471" referredColumn="04D49B87-DD4C-47EC-AE95-996EB2C9ABDF"/>
+</associations>
+</Column>
+<Column name="NOTA" id="2413BBFA-3005-7319-EE8A-0151BBC4A122">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:01:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED4BBE66-30EB-4907-8862-359EEAFCA8FE" name="PONTUACAO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:01:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="758CA549-3C3E-B7E8-98EA-4B40DF8A0AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FFC1110-74EA-B14D-E92E-E477AD46D1A0" name="PONTUACAO_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-21 22:22:00 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621FE215-7C5B-EA1B-8F59-F8674701571E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DE42B4B-5FEC-FF01-43F6-35EE85806484" name="PONTUACAO_RESULTADO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:02:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621FE215-7C5B-EA1B-8F59-F8674701571E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2402129-82EF-9340-DD08-DFC8C7DDF17B" name="PONTUACAO_JURADO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:02:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EA7016D-5653-D07A-7FBC-A876209D35DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

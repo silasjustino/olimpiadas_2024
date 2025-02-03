@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>4</ID>
+  <DSC_FASE>Disputa pelo Bronze</DSC_FASE>
+ </ROW>
+ <ROW>
+  <ID>1</ID>
+  <DSC_FASE>Eliminatórias</DSC_FASE>
+ </ROW>
+ <ROW>
+  <ID>5</ID>
+  <DSC_FASE>Final</DSC_FASE>
+ </ROW>
+ <ROW>
+  <ID>2</ID>
+  <DSC_FASE>Quartas de Final</DSC_FASE>
+ </ROW>
+ <ROW>
+  <ID>3</ID>
+  <DSC_FASE>Semifinal</DSC_FASE>
+ </ROW>
+</ROWSET>

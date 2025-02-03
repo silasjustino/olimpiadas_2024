@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8893437D-312B-4662-2B1C-DCF414AD020A" name="LOCAL">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:05:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="858665A0-A60A-AEE2-F4AE-A35BB8C5D317">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:06:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_LOCAL" id="EAB1047A-0C5A-4A5D-CD95-1FAE038EFAFF">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:06:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO" id="CE08E3B8-9C27-9F73-E7C5-FBD72DFB25EA">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:06:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11F693EC-6D1A-CAB0-3DBC-20B8BBAEBEE1" name="LOCAL_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:06:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="858665A0-A60A-AEE2-F4AE-A35BB8C5D317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FF00197-0E9E-A295-97B4-CA825B1E182A" name="LOCAL_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:30:54 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAB1047A-0C5A-4A5D-CD95-1FAE038EFAFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

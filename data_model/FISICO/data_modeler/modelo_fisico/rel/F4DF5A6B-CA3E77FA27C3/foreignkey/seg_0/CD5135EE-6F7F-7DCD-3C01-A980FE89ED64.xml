@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD5135EE-6F7F-7DCD-3C01-A980FE89ED64" containerWithKeyObject="4F400852-CD3E-DF49-AEED-01BC323C1592" localFKIndex="09719BC9-AA36-AF0B-30FE-49F0C6E4BF3C" name="RESULTADO_DELEGACAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-12-30 17:21:26 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<referredTableLongName>DELEGACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFDEFF62-EEAA-C4F0-1563-57560A7ED68A</referredTableID>
+<keyObject>F5DF9239-E974-FAA1-1FDF-106D4FF05999</keyObject>
+<referredKeyID>F5DF9239-E974-FAA1-1FDF-106D4FF05999</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

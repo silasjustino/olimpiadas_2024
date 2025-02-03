@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61D9DE91-7D67-652A-B9A0-393F67BD1309" name="COMPETICAO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:11:47 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B926C6F6-1450-3B86-AB19-F73727389B22">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MODALIDADE" id="2C39B1B1-4FF2-5BAE-957B-5F56DF8AC711">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9958DD3B-415C-F359-243B-883383853005" referredColumn="E0CBEE0A-2F74-A41C-7623-AFF3342DAFD8"/>
+</associations>
+</Column>
+<Column name="ID_FASE" id="88CBF0C3-86A5-0883-0B1D-66F88ECD62C4">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA20F92A-1BD4-7F4C-2371-B825E9DB4B59" referredColumn="23DED1D1-49A1-A085-094C-EF6708A5A468"/>
+</associations>
+</Column>
+<Column name="ID_LOCAL" id="E711EDB5-44E3-5EA4-629E-C44464E00BB1">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF172613-FBAC-A9DB-5083-DB6EC653CE7C" referredColumn="858665A0-A60A-AEE2-F4AE-A35BB8C5D317"/>
+</associations>
+</Column>
+<Column name="ID_SITUACAO" id="CAC5B312-C22F-7EFB-3283-FD30134662D8">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34F38937-CDB8-81D4-1D3A-6304F5E554CA" referredColumn="52C772ED-7C3F-F07A-2F25-C5B381222CB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77137C58-3DA2-66BE-EF33-E20111759F89" name="COMPETICAO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:19 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B926C6F6-1450-3B86-AB19-F73727389B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48D0668F-1BFF-58EF-6584-7CA88F6F7DA7" name="COMPETICAO_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:24:49 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C39B1B1-4FF2-5BAE-957B-5F56DF8AC711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AB00065-18FA-C0A2-A2D1-06D75F5B4A1E" name="COMPETICAO_MODALIDADE_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:46 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C39B1B1-4FF2-5BAE-957B-5F56DF8AC711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79808884-5953-FBDD-CC99-3100FE65AAFA" name="COMPETICAO_FASE_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:19:56 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88CBF0C3-86A5-0883-0B1D-66F88ECD62C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63845961-A3DE-C870-7034-71F9626DF75F" name="COMPETICAO_LOCAL_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:20:04 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E711EDB5-44E3-5EA4-629E-C44464E00BB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80BAA158-D88B-EDE1-5FAE-69001C07096E" name="COMPETICAO_SITUACAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:20:16 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC5B312-C22F-7EFB-3283-FD30134662D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

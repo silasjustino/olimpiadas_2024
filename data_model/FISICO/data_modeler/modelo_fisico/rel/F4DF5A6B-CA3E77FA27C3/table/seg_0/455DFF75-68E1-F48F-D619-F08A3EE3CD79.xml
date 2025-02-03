@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="455DFF75-68E1-F48F-D619-F08A3EE3CD79" name="MEMBRO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:37:23 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C6375B6D-C62F-414E-B290-D3E979FA3374">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:38:03 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="1AC59DD8-693A-0FA5-C333-8C7567731889">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:38:03 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_DOCUMENTO" id="34EDCDF8-19ED-79B0-0D72-A29C0E6E39AF">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:33:40 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DELEGACAO" id="EEA333A5-72B7-5D2E-E99E-9DE65DC376D8">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:39:36 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6112F606-CB05-5E54-7247-A2D68BD95C85" referredColumn="24127F06-C862-B7C4-4730-DDA99EA9C64E"/>
+</associations>
+</Column>
+<Column name="DATA_NASCIMENTO" id="3D65BAC8-4969-DD3B-D739-A7ADCF82FAE9">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:40:27 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDADE" id="1DD37E20-9C02-8FF3-043B-A2E9308A34A0">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:41:28 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO" id="B6B73D46-442F-7F9F-28D7-2C909047CC64">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:42:52 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILENAME_FOTO" id="F1E00927-16A2-6B60-6470-E0B4B5EC796F">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:10:59 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIMETYPE_FOTO" id="4A80A355-DB27-675C-00F2-2CFABF6F99D9">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:10:59 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMG_LST_UPD_FOTO" id="D2E34B90-43F9-CD57-BEAE-8D9AC4E9FF94">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:10:59 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5515D55-6485-ADFD-3ABF-62CD994D4944" name="MEMBRO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:38:03 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6375B6D-C62F-414E-B290-D3E979FA3374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="321EA195-18A7-E3B6-FE77-A5A3F86D8A52" name="MEMBRO_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:33:58 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34EDCDF8-19ED-79B0-0D72-A29C0E6E39AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B04B1333-5617-CEC3-E0A9-2F270372EFF0" name="MEMBRO_DELEGACAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:39:36 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEA333A5-72B7-5D2E-E99E-9DE65DC376D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

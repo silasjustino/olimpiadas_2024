@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70C00876-A37B-17A7-DC61-5C943C3946FD" name="DOPING">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C2DB49DE-9D86-4B14-7E1C-AE0CD93A87A1">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ATLETA" id="0E560A1F-22C6-1981-BABE-45FFDFBA6DB6">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECE9D50C-4665-3FEE-4F6A-C2509A6346F9" referredColumn="21EDD19A-F4F9-B79C-F37B-16DB999FBB78"/>
+</associations>
+</Column>
+<Column name="ID_COMPETICAO" id="452C58F9-D517-8A06-BAF3-1E09EEDB1824">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8957D91A-35C4-EB7C-05D9-567B0A378A20" referredColumn="B926C6F6-1450-3B86-AB19-F73727389B22"/>
+</associations>
+</Column>
+<Column name="ID_KIT_DOPING" id="B9332AD1-4352-F973-3890-CDCC25F3F370">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:29:25 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="829532F5-FF7A-4D72-D657-67B81FBECA8F" referredColumn="DC381A3A-7357-A81E-1D20-709EC5CA2F5E"/>
+</associations>
+</Column>
+<Column name="RESULTADO" id="0911CB17-EE5A-F584-63E2-7C3E829001C2">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ECA4F07-1E0C-4C5E-8D38-3DBCA63CC9C4" name="DOPING_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2DB49DE-9D86-4B14-7E1C-AE0CD93A87A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C7F312-B0FF-79D5-EAA7-D17CC8804A81" name="DOPING_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:21:11 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E560A1F-22C6-1981-BABE-45FFDFBA6DB6"/>
+<colUsage columnID="452C58F9-D517-8A06-BAF3-1E09EEDB1824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB61A78D-6F9C-EF75-92A0-178F3473F23F" name="DOPING_ATLETA_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:24:56 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E560A1F-22C6-1981-BABE-45FFDFBA6DB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CE0E279-1BDD-94CD-22BA-FE108A52A523" name="DOPING_COMPETICAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:25:05 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="452C58F9-D517-8A06-BAF3-1E09EEDB1824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19A9C0FE-2668-23F9-0972-0A7EDA6D01F3" name="DOPING_KIT_DOPING_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:29:57 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9332AD1-4352-F973-3890-CDCC25F3F370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

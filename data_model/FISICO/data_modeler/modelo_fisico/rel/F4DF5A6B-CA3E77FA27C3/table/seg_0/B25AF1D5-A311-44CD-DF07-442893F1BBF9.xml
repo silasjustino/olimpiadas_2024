@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B25AF1D5-A311-44CD-DF07-442893F1BBF9" name="ATLETA_COMPETICAO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:23:39 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="75A36BA6-DB69-5AD6-D618-D63DC5C16111">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:31 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ATLETA" id="6B268195-5B92-3F2F-25A5-B87ECB96500C">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:31 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCD4F32A-0CFE-76E1-250B-B48A0F46CF81" referredColumn="21EDD19A-F4F9-B79C-F37B-16DB999FBB78"/>
+</associations>
+</Column>
+<Column name="ID_COMPETICAO" id="BB3014C5-C7AE-75C9-6C34-F70478E7BE7E">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:31 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF3D5E65-31B6-AE33-78B5-A12317E8C72A" referredColumn="B926C6F6-1450-3B86-AB19-F73727389B22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E3E627C-B87B-595E-307B-536A091049EE" name="ATLETA_COMPETICAO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:31 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A36BA6-DB69-5AD6-D618-D63DC5C16111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C713E59B-2060-D8E9-A7ED-1663381665A9" name="ATLETA_COMPETICAO_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:25:50 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B268195-5B92-3F2F-25A5-B87ECB96500C"/>
+<colUsage columnID="BB3014C5-C7AE-75C9-6C34-F70478E7BE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAA296A4-F794-F2C9-2BF7-C82584E7EEDB" name="ATLETA_COMPETICAO_ATLETA_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:50 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B268195-5B92-3F2F-25A5-B87ECB96500C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDB2B17A-BB6F-2AEB-6E3D-93C4E8FF5C9E" name="ATLETA_COMPETICAO_COMP_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 15:24:58 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB3014C5-C7AE-75C9-6C34-F70478E7BE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

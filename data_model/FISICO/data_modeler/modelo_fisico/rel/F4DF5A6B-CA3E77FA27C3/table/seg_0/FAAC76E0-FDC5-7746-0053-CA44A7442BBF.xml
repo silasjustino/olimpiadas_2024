@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAAC76E0-FDC5-7746-0053-CA44A7442BBF" name="JURADO_BATERIA">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:03:28 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D2B66E1D-E88F-5B98-13E4-2D06D0718420">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JURADO" id="E3FCA68B-9C0D-38C2-8EFC-7DD5F699DEAE">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DB43D29-72EB-B6F5-EEA4-1D5352A2344D" referredColumn="04D49B87-DD4C-47EC-AE95-996EB2C9ABDF"/>
+</associations>
+</Column>
+<Column name="ID_BATERIA" id="61152A1E-7633-5321-4EEF-8BA01C2FDBAC">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB0EBBFE-47DC-04C5-E4EF-32161B90AD2F" referredColumn="34CB575C-9314-7471-B98B-6A994A592675"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F6467C7-E882-EC15-FDFD-C2FAA0614CAB" name="JURADO_BATERIA_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:15 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2B66E1D-E88F-5B98-13E4-2D06D0718420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB3745A0-42E6-0B33-D393-01AF647621EE" name="JURADO_BATERIA_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:16:53 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FCA68B-9C0D-38C2-8EFC-7DD5F699DEAE"/>
+<colUsage columnID="61152A1E-7633-5321-4EEF-8BA01C2FDBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D862A1FD-00FA-5793-F9BD-00418724A705" name="JURADO_BATERIA_JURADO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:35 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3FCA68B-9C0D-38C2-8EFC-7DD5F699DEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7CF22C5-0602-87ED-A566-E110E736086D" name="JURADO_BATERIA_BATERIA_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:35 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61152A1E-7633-5321-4EEF-8BA01C2FDBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

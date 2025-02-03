@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>3</ID>
+  <DSC_SITUACAO>Finalizada</DSC_SITUACAO>
+ </ROW>
+ <ROW>
+  <ID>2</ID>
+  <DSC_SITUACAO>Sendo realizada</DSC_SITUACAO>
+ </ROW>
+ <ROW>
+  <ID>1</ID>
+  <DSC_SITUACAO>Será realizada</DSC_SITUACAO>
+ </ROW>
+</ROWSET>

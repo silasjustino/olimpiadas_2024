@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="884D084E-7EE3-45C1-0BE2-C959A82F2A98" containerWithKeyObject="4F400852-CD3E-DF49-AEED-01BC323C1592" localFKIndex="8E37730C-E687-FEC1-7381-57AEBEB465A0" name="RESULTADO_ATLETA_COMPETICAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:48:14 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<referredTableLongName>ATLETA_COMPETICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B25AF1D5-A311-44CD-DF07-442893F1BBF9</referredTableID>
+<keyObject>6E3E627C-B87B-595E-307B-536A091049EE</keyObject>
+<referredKeyID>6E3E627C-B87B-595E-307B-536A091049EE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

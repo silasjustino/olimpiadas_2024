@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB0EBBFE-47DC-04C5-E4EF-32161B90AD2F" containerWithKeyObject="FAAC76E0-FDC5-7746-0053-CA44A7442BBF" localFKIndex="A7CF22C5-0602-87ED-A566-E110E736086D" name="JURADO_BATERIA_BATERIA_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:04:35 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<referredTableLongName>BATERIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D1B0C56-8A08-8756-60A1-98CAF33DCA72</referredTableID>
+<keyObject>E9C1F68B-EB7B-4758-2DF1-C75413BB1EF8</keyObject>
+<referredKeyID>E9C1F68B-EB7B-4758-2DF1-C75413BB1EF8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

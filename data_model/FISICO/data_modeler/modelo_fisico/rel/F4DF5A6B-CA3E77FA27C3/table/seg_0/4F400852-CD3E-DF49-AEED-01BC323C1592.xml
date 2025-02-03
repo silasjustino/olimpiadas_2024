@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F400852-CD3E-DF49-AEED-01BC323C1592" name="RESULTADO">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:46:03 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9246CABD-AD29-AC93-8AB4-FBCFFF382B3B">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ATLETA_COMPETICAO" id="D036809B-CA4F-A5C8-2C79-158B0D2970A9">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="884D084E-7EE3-45C1-0BE2-C959A82F2A98" referredColumn="75A36BA6-DB69-5AD6-D618-D63DC5C16111"/>
+</associations>
+</Column>
+<Column name="ID_DELEGACAO" id="9AAFACED-1CA7-A82E-9B37-DFC3BF676B9E">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-12-30 17:19:46 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD5135EE-6F7F-7DCD-3C01-A980FE89ED64" referredColumn="24127F06-C862-B7C4-4730-DDA99EA9C64E"/>
+</associations>
+</Column>
+<Column name="ID_BATERIA" id="464C6FDE-523B-05D3-40EC-1298062CA2B1">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="818B0D36-BB64-70F3-988F-C3F0329A7AB4" referredColumn="34CB575C-9314-7471-B98B-6A994A592675"/>
+</associations>
+</Column>
+<Column name="COLOCACAO" id="A78EC0FD-2151-D0DD-B772-D7DF3A5F52A5">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPO" id="2BBF99F1-A94C-276E-6E6C-4F62BE379571">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSIFICACAO" id="A0386533-CBC8-523F-79F1-D3B46EA158C9">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-04 15:18:48 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CFB2FB3-D928-C1C0-E054-1632DDA18FBE" name="RESULTADO_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:47:12 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9246CABD-AD29-AC93-8AB4-FBCFFF382B3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E37730C-E687-FEC1-7381-57AEBEB465A0" name="RESULTADO_ATLETA_COMPETICAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:48:14 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D036809B-CA4F-A5C8-2C79-158B0D2970A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E3E7021-56FA-1CA1-AF74-B13BBB24EB07" name="RESULTADO_BATERIA_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:48:22 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464C6FDE-523B-05D3-40EC-1298062CA2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09719BC9-AA36-AF0B-30FE-49F0C6E4BF3C" name="RESULTADO_DELEGACAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-12-30 17:21:26 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AAFACED-1CA7-A82E-9B37-DFC3BF676B9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="RESULTADO_CK_ATLETA_DELEGACAO" directorySegmentName="seg_0" id="C961FD90-3825-2067-FBA5-8F14127E8A5E">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-12-30 17:22:27 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<rule><![CDATA[ID_ATLETA_COMPETICAO IS NOT NULL OR ID_DELEGACAO IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="RESULTADO_CK_CLASSIFICACAO" directorySegmentName="seg_0" id="97C492D3-8FC9-37E1-A3C7-6ECDF89B640B">
+<createdBy>sjustino</createdBy>
+<createdTime>2025-01-04 15:20:14 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<rule><![CDATA[CLASSIFICACAO IN ('C', 'D');]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

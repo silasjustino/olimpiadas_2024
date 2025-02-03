@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEC48346-77CE-83DB-FA32-8177294B69FF" name="CATEGORIA">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:34:41 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="03B60EBA-09B2-FB36-7DBE-32406E758D1D">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:35:30 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="C53C6A67-8A3C-A1DA-D257-BC7D575B8A79">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:35:30 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75D40A5D-D2A7-8445-AA88-5EEDBD04628B" name="CATEGORIA_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 14:35:30 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03B60EBA-09B2-FB36-7DBE-32406E758D1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D79F616B-C0CE-A476-3135-FA14AFCD36F4" name="CATEGORIA_UN">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:30:32 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C53C6A67-8A3C-A1DA-D257-BC7D575B8A79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CATEGORIA_CK_SEXO" directorySegmentName="seg_0" id="5C931CFA-FF6F-C464-A2D0-BFEF5FE350D8">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:40:16 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<rule><![CDATA[SEXO IN ('Masculino','Feminino');]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

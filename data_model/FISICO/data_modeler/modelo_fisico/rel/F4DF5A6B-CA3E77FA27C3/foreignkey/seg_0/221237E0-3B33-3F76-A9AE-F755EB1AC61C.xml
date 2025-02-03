@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="221237E0-3B33-3F76-A9AE-F755EB1AC61C" containerWithKeyObject="9A289773-AB9C-CC74-E0E2-8EA56AF826AB" localFKIndex="5DE42B4B-5FEC-FF01-43F6-35EE85806484" name="PONTUACAO_RESULTADO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 22:02:33 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<referredTableLongName>RESULTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4F400852-CD3E-DF49-AEED-01BC323C1592</referredTableID>
+<keyObject>7CFB2FB3-D928-C1C0-E054-1632DDA18FBE</keyObject>
+<referredKeyID>7CFB2FB3-D928-C1C0-E054-1632DDA18FBE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

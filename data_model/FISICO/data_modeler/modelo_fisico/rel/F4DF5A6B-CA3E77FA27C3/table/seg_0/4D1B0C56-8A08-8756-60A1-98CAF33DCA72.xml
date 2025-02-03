@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D1B0C56-8A08-8756-60A1-98CAF33DCA72" name="BATERIA">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:38:36 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="34CB575C-9314-7471-B98B-6A994A592675">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMPETICAO" id="B5F178A6-3B22-FBBB-2C9D-A78F99ACB363">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48545E60-D4A7-FBBA-AFCD-DA6DA33829A2" referredColumn="B926C6F6-1450-3B86-AB19-F73727389B22"/>
+</associations>
+</Column>
+<Column name="ID_FASE" id="E0E03818-3C02-C714-D4FC-14B2076C5CBB">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05229C50-5CBE-C91C-AFCE-33A1C06AC4A9" referredColumn="23DED1D1-49A1-A085-094C-EF6708A5A468"/>
+</associations>
+</Column>
+<Column name="DSC_BATERIA" id="5C721B5E-A472-DAC4-3272-76B83063790E">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="6425E46F-7233-4D14-35F9-18EF66DB3397">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACAO" id="72FBFDF0-2A22-4D1E-EC85-8337EACB4F01">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9C1F68B-EB7B-4758-2DF1-C75413BB1EF8" name="BATERIA_PK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:43:38 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34CB575C-9314-7471-B98B-6A994A592675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07C36764-D38C-319B-1CD8-C747DF4C8600" name="BATERIA_COMPETICAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:45:04 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F178A6-3B22-FBBB-2C9D-A78F99ACB363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E82874D4-740F-B076-B488-2A2E200914A0" name="BATERIA_FASE_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-10-31 21:45:04 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0E03818-3C02-C714-D4FC-14B2076C5CBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

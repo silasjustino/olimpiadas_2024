@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <ID>1</ID>
+  <DSC_LOCAL>Stade de France</DSC_LOCAL>
+  <ENDERECO>Saint-Denis, 93216 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>2</ID>
+  <DSC_LOCAL>Grand Palais</DSC_LOCAL>
+  <ENDERECO>3 Avenue du Général Eisenhower, 75008 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>3</ID>
+  <DSC_LOCAL>Bercy Arena</DSC_LOCAL>
+  <ENDERECO>8 Boulevard de Bercy, 75012 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>4</ID>
+  <DSC_LOCAL>Parc des Princes</DSC_LOCAL>
+  <ENDERECO>24 Rue du Commandant Guilbaud, 75016 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>5</ID>
+  <DSC_LOCAL>Eiffel Tower Stadium</DSC_LOCAL>
+  <ENDERECO>Champ de Mars, 75007 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>6</ID>
+  <DSC_LOCAL>Champ-de-Mars Arena</DSC_LOCAL>
+  <ENDERECO>Avenue Anatole France, 75007 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>7</ID>
+  <DSC_LOCAL>La Défense Arena</DSC_LOCAL>
+  <ENDERECO>99 Jardins de l&apos;Arche, 92000 Nanterre, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>8</ID>
+  <DSC_LOCAL>Stade Roland Garros</DSC_LOCAL>
+  <ENDERECO>16 Avenue Gordon Bennett, 75016 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>9</ID>
+  <DSC_LOCAL>Golf National</DSC_LOCAL>
+  <ENDERECO>2 Avenue du Golf, 78280 Guyancourt, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>10</ID>
+  <DSC_LOCAL>Versailles Palace</DSC_LOCAL>
+  <ENDERECO>Place d\&apos;Armes, 78000 Versailles, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>11</ID>
+  <DSC_LOCAL>Le Bourget Sport Climbing Venue</DSC_LOCAL>
+  <ENDERECO>Le Bourget, 93350 Paris, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>12</ID>
+  <DSC_LOCAL>Marseille Marina</DSC_LOCAL>
+  <ENDERECO>Marseille, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>13</ID>
+  <DSC_LOCAL>Yves-du-Manoir Stadium</DSC_LOCAL>
+  <ENDERECO>12 Rue François Faber, 92700 Colombes, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>14</ID>
+  <DSC_LOCAL>Vaires-sur-Marne</DSC_LOCAL>
+  <ENDERECO>77270 Vaires-sur-Marne, França</ENDERECO>
+ </ROW>
+ <ROW>
+  <ID>15</ID>
+  <DSC_LOCAL>La Concorde Stadium</DSC_LOCAL>
+  <ENDERECO>Place de la Concorde, 75008 Paris, França</ENDERECO>
+ </ROW>
+</ROWSET>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8957D91A-35C4-EB7C-05D9-567B0A378A20" containerWithKeyObject="70C00876-A37B-17A7-DC61-5C943C3946FD" localFKIndex="9CE0E279-1BDD-94CD-22BA-FE108A52A523" name="DOPING_COMPETICAO_FK">
+<createdBy>sjustino</createdBy>
+<createdTime>2024-11-09 21:25:05 UTC</createdTime>
+<ownerDesignName>modelo_fisico</ownerDesignName>
+<referredTableLongName>COMPETICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61D9DE91-7D67-652A-B9A0-393F67BD1309</referredTableID>
+<keyObject>77137C58-3DA2-66BE-EF33-E20111759F89</keyObject>
+<referredKeyID>77137C58-3DA2-66BE-EF33-E20111759F89</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
