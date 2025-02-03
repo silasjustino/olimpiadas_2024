@@ -6,7 +6,7 @@ Sistema de gerenciamento de competições olímpicas, ambientado em Paris 2024, 
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -25,13 +25,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Funcionalidades
 
-✅ Login com Google, implementado via API OAuth 2.0;
-✅ Gerenciamento completo das entidades, incluindo cadastro, edição e exclusão de:
-🔹 Delegações e seus Atletas, Comissão Técnica e Jurados;
-🔹 Esportes e suas Modalidades e Categorias;
-🔹 Competições e suas Baterias e Resultados.
-✅ Acompanhamento de competições e ranking de medalhas;
-✅ Banco de dados robusto, garantindo persistência e rastreamento de alterações.
-✅ Interface responsiva, adaptada para dispositivos desktop e mobile;
+✅ Login com Google, implementado via API OAuth 2.0;<br>
+✅ Gerenciamento completo das entidades, incluindo cadastro, edição e exclusão de:<br>
+🔹 Delegações e seus Atletas, Comissão Técnica e Jurados;<br>
+🔹 Esportes e suas Modalidades e Categorias;<br>
+🔹 Competições e suas Baterias e Resultados.<br>
+✅ Acompanhamento de competições e ranking de medalhas;<br>
+✅ Banco de dados robusto, garantindo persistência e rastreamento de alterações.<br>
+✅ Interface responsiva, adaptada para dispositivos desktop e mobile;<br>
 
 - [Acesse o projeto finalizado, online](https://apex.oracle.com/pls/apex/r/projetos_sj/controle-de-competi%C3%A7%C3%B5es-das-olimp%C3%ADadas/)
